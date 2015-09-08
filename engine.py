@@ -2,6 +2,7 @@
 
 import json
 import sys
+import os # For os.path and the like
 
 class DictWrapper(object):
     def __init__(self, d):
